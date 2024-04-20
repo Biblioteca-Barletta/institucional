@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <>
         <Header />
-        <nav className="bg-azul pr-4 w-full z-0 fixed  border-b-4 border-b-rojo">
+        <nav className="bg-azul pr-4 w-full z-50 border-b-4 border-b-rojo">
             <div className="flex justify-between items-center md:justify-start h-full">
                 <Link to={"/"}>
                     <img className="imgLogo md:hidden" src={logoBarletta} alt="Logo" />

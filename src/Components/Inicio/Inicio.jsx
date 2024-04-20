@@ -7,7 +7,7 @@ const Inicio = () => {
     return (
         <>
             <Navbar />
-            <div className="contenedorLogo bg-azulSuave flex justify-center max-md w-full">
+            <div className="contenedorLogo bg-azulSuave flex justify-center max-md: w-full z-10 mt-20">
                 <img src={logoBarletta} alt="logo barletta" className='logoBarletta'/>
             </div>
         </>
