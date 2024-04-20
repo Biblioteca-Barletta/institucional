@@ -3,7 +3,6 @@ import './App.css'
 
 //Importado de pantallas
 import Inicio from "./Components/Inicio/Inicio";
-
 import Navbar from './Components/Navbar/Navbar'
 
 function App() {
