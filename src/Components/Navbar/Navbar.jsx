@@ -53,14 +53,14 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/biblioteca"} className="text-blanco font-bold ml-1 mr-1 md: ml-7 my-3">
+                            {/* <NavLink to={"/biblioteca"} className="text-blanco font-bold ml-1 mr-1 md: ml-7 my-3">
                                 La biblioteca
-                            </NavLink>
+                            </NavLink> */}
                         </li>
                         <li>
-                            <NavLink to={"/catalogo"} className="text-blanco font-bold ml-1 mr-1 md: ml-7 my-3">
+                            {/* <NavLink to={"/catalogo"} className="text-blanco font-bold ml-1 mr-1 md: ml-7 my-3">
                                 Catálogo
-                            </NavLink>
+                            </NavLink> */}
                         </li>
                         <li>
                             <NavLink to={"/proyectos"} className="text-blanco font-bold ml-1 mr-1 md: ml-7 my-3">
@@ -87,16 +87,16 @@ const Navbar = () => {
                                         Inicio
                                     </NavLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <NavLink to={"/biblioteca"} className="text-blanco font-bold">
                                         La biblioteca
-                                    </NavLink>
-                                </li>
-                                <li>
+                                    </NavLink> 
+                                </li> */}
+                                {/* <li>
                                     <NavLink to={"/catalogo"} className="text-blanco font-bold">
                                         Catálogo
                                     </NavLink>
-                                </li>
+                                </li> */}
                                 <li>
                                     <NavLink to={"/proyectos"} className="text-blanco font-bold">
                                         Proyectos
